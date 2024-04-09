@@ -51,9 +51,9 @@
     "react-dom": "^18.2.0",
     "react-refresh": "^0.11.0",
     "react-router-dom": "^6.18.0",
-    "react-toggle-slider": "^0.4.0",
     "resolve": "^1.20.0",
     "resolve-url-loader": "^4.0.0",
+    "sass": "^1.74.1",
     "sass-loader": "^12.3.0",
     "semver": "^7.3.5",
     "source-map-loader": "^3.0.0",
@@ -147,7 +147,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "node-sass": "^9.0.0"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
