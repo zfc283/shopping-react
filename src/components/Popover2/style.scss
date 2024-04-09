@@ -1,0 +1,95 @@
+.popover-mask {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #000;
+    opacity: .5;
+}
+
+.popover-content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: #FFF;
+    border-radius: .1rem .1rem 0 0;
+
+    .product-info {
+        height: 1.12rem;
+        margin-top: .22rem;
+        margin-left: .2rem;
+        margin-right: .2rem;
+        border-bottom: .01rem solid #F4F4F4;
+
+        img {
+            display: block;
+            width: .69rem;
+            height: .69rem;
+            float: left;
+        }
+        .title {
+            margin-left: 1.16rem;
+            color: #242424;
+            font-size: .12rem;
+            line-height: .18rem;
+            text-overflow: ellipsis;
+            display: -webkit-box;   
+            -webkit-box-orient: vertical;      
+            -webkit-line-clamp: 2;
+        }
+        .price {
+            margin-left: 1.16rem;
+            margin-top: .15rem;
+            color: #F81C00;
+            font-size: .14rem;
+            line-height: .27rem;
+        }
+    }
+    .amount {
+        margin-left: .2rem;
+        margin-right: .2rem;
+        height: .93rem;
+        display: flex;
+        justify-content: space-between;
+        .purchase-amount {
+            color: #242424;
+            font-size: .14rem;
+            line-height: .93rem;
+        }
+        .change-amount {
+            width: 1.04rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .button {
+                color: #242424;
+                font-size: .14rem;
+                line-height: .28rem;
+                height: .28rem;
+                width: .28rem;
+                background: #F4F4F4;
+                text-align: center;
+            }
+        }
+    }
+    .add-to-cart {
+        height: .64rem;
+        .add-button {
+            margin-top: .1rem;
+            margin-left: .16rem;
+            margin-right: .16rem;
+            height: .44rem;
+            border-radius: .22rem;
+            background: #73D13D;
+            color: #FFF;
+            color: #FFFFFFFF;
+            font-size: .16rem;
+            line-height: .44rem;
+            text-align: center;
+        }
+    }
+}

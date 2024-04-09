@@ -1,0 +1,61 @@
+.docker {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFF;
+    z-index: 3;
+    display: flex;
+    font-size: .12rem;
+    color: #D0D9DB;
+    text-align: center;
+    height: .49rem;
+    border-top: .01rem solid #F5F9FA;
+
+    &-item {
+        flex: 1;
+
+        &-icon {
+            margin: .04rem 0;
+            font-size: .2rem;
+        }
+
+        &-title {
+            padding-bottom: .05rem;
+        }
+
+        &-active {
+            color: #73D13D;
+        }
+    }
+}
+
+.cart-page {
+    .docker {
+        position: static;
+        background: #FFF;
+        z-index: 3;
+        display: flex;
+        font-size: .12rem;
+        color: #D0D9DB;
+        text-align: center;
+        height: .49rem;
+        border-top: .01rem solid #F5F9FA;
+        &-item {
+            flex: 1;
+    
+            &-icon {
+                margin: .04rem 0;
+                font-size: .2rem;
+            }
+    
+            &-title {
+                padding-bottom: .05rem;
+            }
+    
+            &-active {
+                color: #73D13D;
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.edit-address-page {
+    background: #F5F9FA;
+    
+    .title {
+        position: relative;
+        line-height: .44rem;
+        font-size: .18rem;
+        color: #242424;
+        background: #FFF;
+        text-align: center;
+
+        .iconfont {
+            position: absolute;
+            left: .1rem;
+            top: 0;
+        }
+    }
+
+    .address-info-container {
+        font-size: 0;
+        line-height: .48rem;
+        padding-left: .1rem;
+        background-color: #FFF;
+        .address-info {
+            &-name {
+                display: inline-block;
+                font-size: .16rem;
+                width: 1rem;
+                color: #242424;
+            }
+            &-input {
+                font-size: .16rem;
+                outline: none;
+                border: none;
+                margin-left: .2rem;
+            }
+        }
+    }
+
+    .set-default-container {
+        margin-top: .1rem;
+        font-size: .16rem;
+        line-height: .48rem;
+        color: #242424;
+        padding-left: .1rem;
+        background-color: #FFF;
+        position: relative;
+        .default-check-box {
+            width: .16rem;
+            height: .16rem;
+            float: right;
+            margin-top: .16rem;
+            margin-right: .1rem;
+        }
+    }
+
+    .save-address {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: .64rem;
+        overflow: hidden;
+        background-color: #FFF;
+        .save-button {
+            margin-top: .1rem;
+            margin-left: .16rem;
+            margin-right: .16rem;
+            height: .44rem;
+            border-radius: .22rem;
+            background: #73D13D;
+            color: #FFF;
+            font-size: .16rem;
+            line-height: .44rem;
+            text-align: center;
+        }
+    }
+
+    
+}

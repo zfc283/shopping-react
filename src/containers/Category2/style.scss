@@ -1,0 +1,174 @@
+.category-page {
+    overflow-y: scroll;
+    .back-icon {
+        position: absolute;
+        left: .15rem;
+        top: .14rem;
+        z-index: 1;
+        font-size: .14rem;
+        color: #242424;
+    }
+    .title {
+        color: #242424;
+        font-size: .16rem;
+        line-height: .44rem;
+        text-align: center;
+    }
+
+    .search {
+        position: relative;
+        margin: .06rem .1rem;
+        font-size: .14rem;
+        color: #242424;
+
+        &-icon {
+            position: absolute;
+            left: .12rem;
+            top: .08rem;
+            color: #75818F;
+        }
+
+        &-input {
+            width: 100%;
+            padding-left: .34rem;
+            padding-right: .15rem;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+            display: block;
+            line-height: .34rem;
+            height: .34rem;
+            background: #F5F9FA;
+            border-radius: .17rem;
+            color: #242424;
+        }
+    }
+    .container {
+        overflow: hidden;
+        padding-bottom: 1rem;
+        .left {
+            width: .96rem;
+            overflow-y: scroll;
+            float: left;                // 使用 float 布局，有时候能避免一些 flex 布局带来的其它问题
+            &-item {
+                background: #F5F9FA;
+                line-height: .52rem;
+                color: #242424;
+                font-size: .13rem;
+                text-align: center;
+                &-active {
+                    background: #FFF;
+                }
+            }
+        }
+        .right {
+            margin-left: 1.06rem;
+            margin-right: .1rem;
+            //margin-left: .1rem;
+            &-top {
+                overflow-x: scroll;
+                white-space: nowrap;
+                font-size: 0;
+                &-item {
+                    background: #F5F9FA;
+                    border-radius: .05rem;
+                    border: .01rem solid #F5F9FA;
+                    line-height: .32rem;
+                    padding-left: .18rem;
+                    padding-right: .18rem;
+                    font-size: .13rem;
+                    text-align: center;
+                    display: inline-block;
+                    margin-right: .1rem;
+                    &-active {
+                        background: #D9F7BE;
+                        color: #52C41A;
+                    }
+                }
+            }
+            .content {
+                margin-top: .07rem;
+                &-title {
+                    margin-top: .1rem;
+                    margin-bottom: .1rem;
+                    color: #242424;
+                    font-size: .11rem;
+                    line-height: .16rem;
+                }
+                &-item {
+                    height: .96rem;
+                    position: relative;
+                    &-img {
+                        margin-top: .1rem;
+                        width: .76rem;
+                        height: .76rem;
+                        float: left;
+                    }
+                    &-title {
+                        margin-top: .1rem;
+                        margin-left: .96rem;
+                        color: #242424;
+                        font-size: .14rem;
+                        line-height: .21rem;
+                    }
+                    &-sales {
+                        margin-left: .96rem;
+                        margin-top: .1rem;
+                        color: #B1B1B1;
+                        font-size: .11rem;
+                        line-height: .16rem;
+                    }
+                    &-price {
+                        margin-left: .96rem;
+                        margin-top: .1rem;
+                        color: #CF1322;
+                        font-size: .12rem;
+                        line-height: .24rem;
+                    }
+                    &-button {
+                        position: absolute;
+                        right: .1rem;
+                        bottom: .1rem;
+                        border-radius: .04rem;
+                        background: #73D13D;
+                        padding-left: .08rem;
+                        padding-right: .08rem;
+                        color: #FFF;
+                        font-size: .12rem;
+                        line-height: .18rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .docker {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #FFF;
+        z-index: 3;
+        display: flex;
+        font-size: .12rem;
+        color: #D0D9DB;
+        text-align: center;
+        height: .49rem;
+        border-top: .01rem solid #F5F9FA;
+        &-item {
+            flex: 1;
+            &-icon {
+                margin: .04rem 0;
+                font-size: .2rem;
+            }
+            &-title {
+                padding-bottom: .05rem;
+            }
+            &-active {
+                color: #73D13D;
+            }
+        }
+    }
+
+    
+}

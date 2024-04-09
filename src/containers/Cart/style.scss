@@ -1,0 +1,211 @@
+.cart-page {
+    background: #F5F9FA;
+    overflow-y: scroll;
+
+    .title {
+        background: #FFF;
+        line-height: .44rem;
+        color: #242424;
+        font-size: .16rem;
+        text-align: center;
+    }
+
+    .circle-active {
+        background: #73D13D;
+        border: none;
+    }
+
+    .container {
+        padding-bottom: 1.1rem;
+    }
+
+
+
+    .store {
+        margin-top: .1rem;
+        background: #FFF;
+
+        .store-title {
+            line-height: .4rem;
+            display: flex;
+            align-items: center;
+
+            .store-icon {
+                font-size: .16rem;
+                margin-right: .05rem;
+            }
+
+            .circle {
+                margin-left: .1rem;
+                margin-right: .2rem;
+                width: .16rem;
+                height: .16rem;
+                line-height: .4rem;
+                border-radius: .08rem;
+                border: .01rem solid #B1B1B1;
+            }
+
+            .store-name {
+                color: #242424;
+                font-size: .16rem;
+            }
+        }
+
+        .product-list {
+            .list-item {
+                height: 1.28rem;
+                overflow: hidden;
+
+                .circle {
+                    float: left;
+                    margin-top: .54rem;
+                    margin-left: .1rem;
+                    width: .16rem;
+                    height: .16rem;
+                    line-height: .4rem;
+                    border-radius: 50%;
+                    border: .01rem solid #B1B1B1;
+                }
+
+                &-content {
+                    position: relative;
+                    margin-left: .46rem;
+                    margin-bottom: .1rem;
+                    overflow: hidden;
+
+                    &-img {
+                        display: block;
+                        width: .96rem;
+                        height: .96rem;
+                        margin-top: .16rem;
+                        float: left;
+                    }
+
+                    &-title {
+                        margin-left: 1.06rem;
+                        margin-right: .3rem;
+                        color: #242424;
+                        font-size: .14rem;
+                        line-height: .21rem;
+                        display: -webkit-box;
+                        /* 将文本显示为块元素 */
+                        -webkit-line-clamp: 2;
+                        /* 设置最大显示行数为2 */
+                        -webkit-box-orient: vertical;
+                        /* 设置块元素内部文本垂直排列 */
+                        overflow: hidden;
+                        /* 当文本溢出块元素时进行隐藏 */
+                        text-overflow: ellipsis;
+                        /* 溢出部分显示省略号 */
+                    }
+
+                    &-specs {
+                        margin-left: 1.06rem;
+                        color: #B1B1B1;
+                        font-size: .12rem;
+                        line-height: .18rem;
+
+                    }
+
+                    &-price {
+                        margin-left: 1.06rem;
+                        color: #CF1322;
+                        font-size: .12rem;
+                        line-height: .21rem;
+                    }
+
+                    // &-amount {
+                    //     position: absolute;
+                    //     bottom: .16rem;
+                    //     right: .48rem;
+                    //     width: .24rem;
+                    //     height: .24rem;
+                    //     color: #242424;
+                    //     font-size: .15rem;
+                    //     line-height: .24rem;
+                    //     text-align: center;
+                    //     border: .01rem solid #DFDFDF;
+                    // }
+
+                    &-amount-container {
+                        position: absolute;
+                        bottom: .1rem;
+                        right: .35rem;
+                        width: .8rem;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: #242424;
+                        font-size: .11rem;
+                        line-height: .22rem;
+                        text-align: center;
+
+                        .button {
+                            height: .22rem;
+                            width: .22rem;
+                            background: #F4F4F4;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .bottom {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #FFF;
+
+        .total {
+            line-height: .5rem;
+            display: flex;
+            align-items: center;
+
+            .circle {
+                margin-left: .1rem;
+                margin-right: .2rem;
+                width: .16rem;
+                height: .16rem;
+                line-height: .4rem;
+                border-radius: .08rem;
+                border: .01rem solid #B1B1B1;
+            }
+
+            .select-all-text {
+                margin-right: auto;
+                color: #BBBBBB;
+                font-size: .14rem;
+                line-height: .5rem;
+            }
+
+            .total-text {
+                margin-left: auto;
+                color: #242424;
+                font-size: .15rem;
+                line-height: .5rem;
+            }
+
+            .total-price {
+                margin-left: .1rem;
+                color: #CF1322;
+                font-size: .12rem;
+                line-height: .5rem;
+            }
+
+            .pay {
+                margin-left: .15rem;
+                background: #73D13D;
+                line-height: .5rem;
+                padding-left: .33rem;
+                padding-right: .33rem;
+                color: #FFF;
+                font-size: .15rem;
+                text-align: center;
+            }
+        }
+    }
+
+}

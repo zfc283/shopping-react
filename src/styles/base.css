@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 去掉 input 输入时的背景色 */
+input:-webkit-autofill {
+    box-shadow: 0 0 0 1000px white inset !important;
+}
+input:-internal-autofill-previewed,
+input:-internal-autofill-selected {
+    -webkit-text-fill-color: #333 !important;
+    transition: background-color 5000s ease-in-out 0s !important;
+}
+
+
+@font-face {
+    font-family: 'iconfont';  /* Project id 4329286 */
+    src: url('//at.alicdn.com/t/c/font_4329286_trwqgm9jext.woff2?t=1702272963412') format('woff2'),
+         url('//at.alicdn.com/t/c/font_4329286_trwqgm9jext.woff?t=1702272963412') format('woff'),
+         url('//at.alicdn.com/t/c/font_4329286_trwqgm9jext.ttf?t=1702272963412') format('truetype');
+  }
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}

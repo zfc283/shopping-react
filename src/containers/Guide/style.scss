@@ -1,0 +1,46 @@
+.guide-page {
+    opacity: 0;
+    transition: all 1.5s;
+    .main-pic {
+        display: block;
+        width: .86rem;
+        height: .7rem;
+        padding: .93rem 0 .29rem 0;
+        margin: 0 auto;
+        /* padding: 0;            这种写法会导致垂直方向 margin 溢出
+        margin: .93rem auto .29rem auto; */
+    }
+    .title {
+        color: #242424;
+        font-weight: regular;
+        font-size: .2rem;
+        line-height: .23rem;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .slogan {
+        font-size: .24rem;
+        color: #73D13D;
+        line-height: 1.18rem;
+        margin: 1.3rem auto auto auto;
+        text-align: center;
+    }
+    .sub-pic {
+        display: block;
+        width: 2.02rem;
+        height: 1.18rem;
+        margin: 1.73rem auto 1.76rem auto;
+    }
+    .arrow-icon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 1.5rem;
+        text-align: center;
+        color: #9c9c9c;
+        font-size: .2rem;
+        line-height: .2rem;
+        font-weight: bold;
+    }
+}
+

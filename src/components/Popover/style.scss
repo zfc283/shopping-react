@@ -1,0 +1,186 @@
+.popover-mask {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #000;
+    opacity: .5;
+}
+
+.popover-content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: #FFF;
+    border-radius: .1rem .1rem 0 0;
+
+    .product-info {
+        height: 1.12rem;
+        margin-top: .22rem;
+        margin-left: .2rem;
+        margin-right: .2rem;
+        border-bottom: .01rem solid #F4F4F4;
+
+        img {
+            display: block;
+            width: .69rem;
+            height: .69rem;
+            float: left;
+        }
+        .title {
+            margin-left: 1.16rem;
+            color: #242424;
+            font-size: .12rem;
+            line-height: .18rem;
+            text-overflow: ellipsis;
+            display: -webkit-box;   
+            -webkit-box-orient: vertical;      
+            -webkit-line-clamp: 2;
+            text-align: left;
+        }
+        .price {
+            margin-left: 1.16rem;
+            margin-top: .15rem;
+            color: #F81C00;
+            font-size: .14rem;
+            line-height: .27rem;
+        }
+    }
+    .amount {
+        margin-left: .2rem;
+        margin-right: .2rem;
+        height: .93rem;
+        display: flex;
+        justify-content: space-between;
+        .purchase-amount {
+            color: #242424;
+            font-size: .14rem;
+            line-height: .93rem;
+        }
+        .change-amount {
+            width: 1.04rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .button {
+                color: #242424;
+                font-size: .14rem;
+                line-height: .28rem;
+                height: .28rem;
+                width: .28rem;
+                background: #F4F4F4;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.detail-page {
+    .popover-content {
+        .add-to-cart {
+            height: .64rem;
+            overflow: hidden;
+            .add-button {
+                margin-top: .1rem;
+                margin-left: .16rem;
+                margin-right: .16rem;
+                height: .44rem;
+                border-radius: .22rem;
+                background: #73D13D;
+                color: #FFF;
+                color: #FFFFFFFF;
+                font-size: .16rem;
+                line-height: .44rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.category-page {
+    .popover-content {
+        .add-to-cart {
+            height: .64rem;
+            overflow: hidden;
+            display: flex;
+            .add-button {
+                flex: 1;
+                margin-top: .1rem;
+                margin-left: .16rem;
+                margin-right: .11rem;
+                height: .44rem;
+                border-radius: .22rem;
+                background: #73D13D;
+                color: #FFF;
+                font-size: .16rem;
+                line-height: .44rem;
+                text-align: center;
+            }
+            .buy-button {
+                flex: 1;
+                margin-top: .1rem;
+                margin-left: .11rem;
+                margin-right: .16rem;
+                height: .44rem;
+                border-radius: .22rem;
+                background: #73D13D;
+                color: #FFF;
+                font-size: .16rem;
+                line-height: .44rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+.cart-page {
+    .popover-content {
+        position: absolute;
+        width: 2.3rem;
+        height: 1.5rem;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+        top: 2.2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        font-size: .16rem;
+        color: #242424;
+        border-radius: .1rem;
+
+        .text {
+            position: absolute;
+            width: 100%;
+            top: .5rem;
+            text-align: center;
+        }
+        .button-container {
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            width: 100%;
+            line-height: .31rem;
+
+            .button-left {
+                flex: 1;
+                text-align: center;
+                border: .01rem solid #F4F4F4;
+                border-bottom-left-radius: .1rem;
+            }
+
+            .button-right {
+                flex: 1;
+                text-align: center;
+                border: .01rem solid #F4F4F4;
+                border-bottom-right-radius: .1rem;
+            }
+
+        }
+    }
+}

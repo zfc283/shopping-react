@@ -1,0 +1,368 @@
+.order-page {
+    background: #F5F9FA;
+    //padding-bottom: .74rem;
+    overflow-y: scroll;
+    //-webkit-overflow-scrolling: touch;    // 滑动流畅
+
+    .title {
+        position: relative;
+        background: #FFF;
+        line-height: .44rem;
+        color: #242424;
+        font-size: .18rem;
+        text-align: center;
+        .back {
+            position: absolute;
+            top: .15rem;
+            left: .1rem;
+            line-height: .14rem;
+            &-icon {
+                font-size: .14rem;
+                color: #242424;
+            }
+        }
+    }
+
+    .shipping {
+        height: .92rem;
+        display: flex;
+        background: #FFF;
+
+        .iconfont {
+            color: #73D13D;
+            font-size: .18rem;
+            float: left;
+            margin-left: .2rem;
+            margin-top: .35rem;
+            margin-right: .1rem;
+        }
+
+        &-container {
+            flex: 1;
+
+            .contact {
+                color: #242424;
+                font-size: .14rem;
+                line-height: .21rem;
+                margin-top: .15rem;
+                display: flex;
+
+                &-phone {
+                    margin-left: .15rem;
+                    margin-right: auto;
+                }
+            }
+
+            .address {
+                margin-top: .07rem;
+                color: #242424;
+                font-size: .12rem;
+                line-height: .18rem;
+            }
+        }
+
+        .text {
+            color: #B1B1B1;
+            font-size: .14rem;
+            line-height: .21rem;
+            align-self: center;
+            margin-left: .15rem;
+        }
+    }
+
+    .delivery-time {
+        margin-top: .1rem;
+        line-height: .48rem;
+        background: #FFF;
+        position: relative;
+
+        &-text {
+            margin-left: .1rem;
+            color: #242424;
+            font-size: .14rem;
+        }
+
+        &-select {
+            position: absolute;
+            top: 50%;
+            margin-top: -.24rem;
+            right: .1rem;
+            color: #B1B1B1;
+            font-size: .14rem;
+        }
+    }
+
+    .store-list {
+        margin-top: .1rem;
+        overflow: hidden;
+
+        &-item {
+            margin-bottom: .1rem;
+
+            .store-title {
+                box-sizing: border-box;
+                padding-left: .1rem;
+                line-height: .48rem;
+                color: #242424;
+                font-size: .16rem;
+                background: #FFF;
+
+                .iconfont {
+                    font-size: .16rem;
+                    margin-right: .1rem;
+                }
+            }
+
+            .product-list {
+                background: #FFF;
+
+                &-item {
+                    position: relative;
+                    overflow: hidden;
+
+                    img {
+                        display: block;
+                        width: .86rem;
+                        height: .86rem;
+                        margin-left: .1rem;
+                        margin-top: .1rem;
+                        margin-bottom: .1rem;
+                        float: left;
+                    }
+
+                    .title {
+                        margin-left: 1.06rem;
+                        margin-top: .1rem;
+                        width: 1.82rem;
+                        color: #242424;
+                        font-size: .14rem;
+                        line-height: .21rem;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2; //多行在这里修改数字即可
+                        /* autoprefixer: ignore next */
+                        -webkit-box-orient: vertical;
+                        text-align: left;
+                    }
+
+                    .weight {
+                        margin-left: 1.06rem;
+                        color: #B1B1B1;
+                        font-size: .12rem;
+                        line-height: .18rem;
+                        margin-top: .1rem;
+                    }
+
+                    .price {
+                        position: absolute;
+                        top: .1rem;
+                        right: .1rem;
+                        color: #242424;
+                        font-size: .14rem;
+                        line-height: .21rem;
+                    }
+
+                    .count {
+                        position: absolute;
+                        top: .31rem;
+                        right: .1rem;
+                        color: #242424;
+                        font-size: .14rem;
+                        line-height: .21rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .summary {
+        background: #FFF;
+        color: #242424;
+        font-size: .14rem;
+        line-height: .21rem;
+        overflow: hidden;
+
+        &-price {
+            margin-top: .1rem;
+
+            &-text {
+                margin-left: .1rem;
+            }
+
+            &-detail {
+                float: right;
+                margin-right: .1rem;
+            }
+        }
+
+        &-discount {
+            &-text {
+                margin-left: .1rem;
+            }
+
+            &-detail {
+                float: right;
+                margin-right: .1rem;
+            }
+        }
+
+        &-delivery {
+            margin-bottom: .1rem;
+            
+            &-text {
+                margin-left: .1rem;
+            }
+
+            &-detail {
+                float: right;
+                margin-right: .1rem;
+            }
+        }
+
+        &-priviledge {
+            margin-bottom: .1rem;
+
+            &-text {
+                margin-left: .1rem;
+            }
+
+            &-detail {
+                float: right;
+                margin-right: .1rem;
+            }
+        }
+    }
+    .bottom-area {
+        height: .74rem;
+    }
+
+    .bottom {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin-top: .1rem;
+        height: .64rem;
+        line-height: .64rem;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+
+        .total-price-text {
+            margin-left: .1rem;
+            color: #242424;
+            font-size: .14rem;
+        }
+
+        .total-price-number {
+            margin-left: .1rem;
+            margin-right: auto;
+            color: #CF1322;
+            font-size: .16rem;
+        }
+
+        .submit-order-button {
+            margin-left: auto;
+            margin-right: .1rem;
+            color: #FFF;
+            font-size: .16rem;
+            // height: .44rem;
+            // line-height: .44rem;
+            height: .35rem;
+            line-height: .35rem;
+            text-align: center;
+            // padding-left: .4rem;
+            // padding-right: .4rem;
+            padding-left: .25rem;
+            padding-right: .25rem;
+            background: #73D13D;
+            border-radius: .22rem;
+        }
+    }
+
+    .popover-content {
+        color: #242424;
+        .total-price {
+            color: #52C41A;
+            font-size: .24rem;
+            line-height: .28rem;
+            text-align: center;
+            margin-top: .2rem;
+            margin-bottom: .2rem;
+        }
+        .payment-list {
+            margin-bottom: .1rem;
+            &-item {
+                box-sizing: border-box;
+                padding-left: .16rem;
+                padding-right: .16rem;
+                line-height: .48rem;
+                font-size: .14rem;
+                display: flex;
+                align-items: center;
+                img {
+                    width: .28rem;
+                    height: .28rem;
+                    display: block;
+                    margin-right: .1rem;
+                }
+                .circle {
+                    margin-left: auto;
+                    width: .16rem;
+                    height: .16rem;
+                    border-radius: .08rem;
+                    border: .01rem solid #B1B1B1;
+                    &-active {
+                        background: #73D13D;
+                        border: none !important;
+                    }
+                }
+            }
+        }
+        .payment-bottom {
+            height: .64rem;
+            overflow: hidden;
+            &-button {
+                margin: .1rem .16rem;
+                color: #FFF;
+                font-size: .16rem;
+                line-height: .44rem;
+                text-align: center;
+                border-radius: .22rem;
+                background: #73D13D;
+            }
+        }
+        .title {
+            line-height: .48rem;
+            color: #242424;
+            font-size: .14rem;
+            text-align: center;
+        }
+        .address-list {
+            padding-bottom: .44rem;
+            &-item {
+                height: .88rem;
+                .contact {
+                    display: flex;
+                    color: #242424;
+                    font-size: .16rem;
+                    line-height: .24rem;
+                    &-name {
+                        margin-left: .16rem;
+                    }
+                    &-phone {
+                        margin-left: .3rem;
+                        margin-right: auto;
+                    }
+                }
+                .address {
+                    margin-left: .16rem;
+                    color: #BBBBBB;
+                    font-size: .14rem;
+                    line-height: .21rem;
+                }
+            }
+        }
+    }
+}
