@@ -1,6 +1,6 @@
 ## Description
 
-This project is the mobile front-end for the GrocerGo platform. It has been optimized specifically for mobile devices and may not render as intended on desktop devices due to the discrepancy in screen dimensions. For optimal viewing, it is recommended to run the project and then use a browser to inspect it under the dimensions of an iPhone SE.
+This project is the mobile web front-end for the GrocerGo platform. It has been optimized specifically for mobile devices and may not render as intended on desktop devices due to the discrepancy in screen dimensions. For optimal viewing, it is recommended to run the project and then use a browser to inspect it under the dimensions of an iPhone SE.
 
 &nbsp;
 
