@@ -2,6 +2,8 @@
 
 This project is the mobile front-end for the GrocerGo platform. It has been optimized specifically for mobile devices and may not render as intended on desktop devices due to the discrepancy in screen dimensions. For optimal viewing, it is recommended to run the project and then use a browser to inspect it under the dimensions of an iPhone SE.
 
+&nbsp;
+
 ## Getting started
 
 Upon successfully cloning the project into local environment, navigate to the root directory of the project and execute the command "npm install". This will initiate the download and installation of all necessary packages. Once the installation process is complete, launch the application by running "npm start". To access the application, open [http://localhost:3000] in your browser. For optimal viewing, remember to inspect the page using the dimensions of a mobile device.
