@@ -4,6 +4,12 @@ This project is the mobile web front-end for the GrocerGo platform. It has been 
 
 &nbsp;
 
+- **Backend**: [GrocerGo Backend Repository](https://github.com/zfc12/shopping-express)
+
+- **Project Demo**: [GrocerGo Demo Site](https://www.grocergo.site) (Best viewed on a mobile device or in a browser with the screen dimensions set to "iPhone SE")
+
+&nbsp;
+
 ## Getting started
 
 After cloning the project into local environment, navigate to the root directory of the project and execute the command `npm install`. This will initiate the download and installation of all necessary packages. Once the installation process is complete, launch the application by running `npm start`. The application can be accessed via `http://localhost:3000`. For optimal viewing, it is advisable to inspect the page using the dimensions of a mobile device.
