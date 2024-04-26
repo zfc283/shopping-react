@@ -12,7 +12,7 @@ This project is the mobile web front-end for the GrocerGo platform. It has been 
 
 ## Getting started
 
-After cloning the project into local environment, navigate to the root directory of the project and execute the command `npm install`. This will initiate the download and installation of all necessary packages. Once the installation process is complete, launch the application by running `npm start`. The application can be accessed via `http://localhost:3000`. For development purposes, it is advisable to inspect the page under the dimensions of an iphone SE.
+After cloning the project into local environment, navigate to the root directory of the project and execute the command `npm install`. This will initiate the download and installation of all necessary packages. Once the installation process is complete, launch the application by running `npm start`. The application can be accessed via `http://localhost:3000`. For development purposes, inspect the page under the dimensions of an iphone SE.
 
 &nbsp;
 
