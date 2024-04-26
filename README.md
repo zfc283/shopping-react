@@ -4,7 +4,7 @@ This project is the mobile web front-end for the GrocerGo platform. It has been 
 
 &nbsp;
 
-- **Backend**: https://github.com/zfc12/shopping-express
+- **Backend**: https://github.com/zfc283/shopping-express
 
 - **Project Demo**: https://www.grocergo.site (Best viewed on a mobile device)
 
