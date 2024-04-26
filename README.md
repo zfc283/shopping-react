@@ -1,12 +1,12 @@
 ## Description
 
-This project is the mobile web front-end for the GrocerGo platform. It has been optimized specifically for mobile devices and may not render as intended on desktop devices due to the discrepancy in screen dimensions. For optimal viewing, it is recommended to run the project and then use a browser to inspect it under the dimensions of an iPhone SE.
+This project is the mobile web front-end for the GrocerGo platform. It has been optimized specifically for mobile devices and may not render as intended on desktop devices due to the discrepancy in screen dimensions. For development purposes, run the project and use a browser to inspect it using the dimensions of an iPhone SE. For optimal viewing, access the running project from a mobile device.
 
 &nbsp;
 
-- **Backend**: [GrocerGo Backend Repository](https://github.com/zfc12/shopping-express)
+- **Backend**: https://github.com/zfc12/shopping-express
 
-- **Project Demo**: [GrocerGo Demo Site](https://www.grocergo.site) (Best viewed on a mobile device or in a browser with the screen dimensions set to "iPhone SE")
+- **Project Demo**: https://www.grocergo.site (Best viewed on a mobile device)
 
 &nbsp;
 
