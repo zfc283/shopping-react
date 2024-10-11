@@ -7,6 +7,25 @@ This project is the mobile web frontend for the GrocerGo platform. It has been o
 - **Backend**: https://github.com/zfc283/shopping-express
 
 - **Project Demo**: https://www.grocergo.site (best viewed on a mobile device)
+- **Test Account**:
+  - Phone Number: 1234567890
+  - Password: 111111a
+
+&nbsp;
+
+## Screenshots
+
+&nbsp;
+
+<img src="https://shopping-project.s3.ca-central-1.amazonaws.com/github-readme-images/Screenshot+(436).png" alt="Alt text" >
+
+&nbsp;
+
+&nbsp;
+
+<img src="https://shopping-project.s3.ca-central-1.amazonaws.com/github-readme-images/Screenshot+(437).png" alt="Alt text" >
+
+&nbsp;
 
 &nbsp;
 
